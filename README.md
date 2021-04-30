@@ -13,8 +13,7 @@ Syntax highlighted code block
 
 - Bulleted
 - List
-
-1. Numbered
+[Caption](https://example.com)
 2. List
 
 **Bold** and _Italic_ and `Code` text
