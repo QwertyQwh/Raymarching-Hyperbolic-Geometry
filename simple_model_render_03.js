@@ -184,9 +184,9 @@ window.SimpleModelRender_03 = function (gl, program, model, out) {
    * @param transform 4x4Matrix The transformation to apply to the model vertices.
    */
   var matrix = new Learn_webgl_matrix();
-  self.type = 1;
+  self.type = 3;
   self.softShadow = 2;
-  self.animated = true;
+  self.animated = false;
   self.ro_x = 0.;
   self.ro_y = 0.;
   self.ro_z = 0.;
