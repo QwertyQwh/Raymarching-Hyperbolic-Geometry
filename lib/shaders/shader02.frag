@@ -831,7 +831,6 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     //issue: There are points that are not on the unit disk/sphere, which cannot be projected to the hyperboloid.
 
     vec3 light = render(uv,iType, Euc2Hyp(iRo),iFov);
-    fragColor = vec4(1.,0.,0.,1.);
     fragColor = vec4(light,1.);   
 }
 
